@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Empresa especializada em construção e reformas em Salvador - BA. Serviços de engenharia, elétrica, hidráulica e acabamentos com qualidade e pontualidade.">
+  <title>Freitas Engenharia - Portfólio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #fff; color: #333; }
+    header, section, footer { padding: 60px 20px; }
+    header { background: #005b57; color: white; text-align: center; }
+    nav { margin-top: 15px; }
+    nav a { margin: 0 10px; color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    section { max-width: 1000px; margin: auto; }
+    h1, h2 { color: #005b57; }
+
+    .gallery.with-logo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      align-items: start;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      object-fit: cover;
+      display: block;
+    }
+    .gallery .logo {
+      grid-column: 1 / -1;
+      text-align: center;
+    }
+    .gallery .logo img {
+      max-width: 200px;
+      height: auto;
+    }
+    .caption {
+      font-size: 0.9em;
+      text-align: center;
+      color: #555;
+      margin-top: 5px;
+    }
+    footer {
+      background: #f4f4f4;
+      text-align: center;
+      font-size: 0.9em;
+      color: #333;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #005b57;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+    .btn:hover {
+      background: #007c77;
+    }
+    html { scroll-behavior: smooth; }
+    a { color: #005b57; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header id="topo">
+  <h1>Freitas Engenharia e Construção</h1>
+  <p>Excelência em obras e reformas em Salvador – BA</p>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section id="sobre">
+  <h2>Sobre a Empresa</h2>
+  <p>
+    A Freitas Engenharia é referência em serviços de construção civil e reformas em Salvador-BA. Atuamos com projetos residenciais e comerciais, entregando qualidade, agilidade e segurança. Contamos com uma equipe técnica qualificada, utilizando materiais de alto padrão e tecnologia para garantir satisfação e durabilidade.
+  </p>
+</section>
+
+<section id="portfolio">
+  <h2>Portfólio de Obras</h2>
+  <div class="gallery with-logo">
+    <div class="logo">
+      <img src="logo-freitas.png" alt="Logo Freitas Engenharia">
+    </div>
+    <div>
+      <img src="https://images.unsplash.com/photo-1581091870622-6c5e7ccf3c64?auto=format&fit=crop&w=800&q=60" alt="Obra 1">
+      <div class="caption">Construção residencial finalizada</div>
+    </div>
+    <div>
+      <img src="https://images.unsplash.com/photo-1615874959474-d609969a4d68?auto=format&fit=crop&w=800&q=60" alt="Obra 2">
+      <div class="caption">Reforma de apartamento em andamento</div>
+    </div>
+    <div>
+      <img src="https://images.unsplash.com/photo-1594344368720-ef8f6f0b9ff7?auto=format&fit=crop&w=800&q=60" alt="Obra 3">
+      <div class="caption">Obra comercial concluída</div>
+    </div>
+    <div>
+      <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60" alt="Obra 4">
+      <div class="caption">Estrutura de alvenaria</div>
+    </div>
+    <div>
+      <img src="https://images.unsplash.com/photo-1613145997212-3fa46fcd20d0?auto=format&fit=crop&w=800&q=60" alt="Obra 5">
+      <div class="caption">Serviço de pintura profissional</div>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Fale Conosco</h2>
+  <p>📍 Salvador – Bahia</p>
+  <p>📱 <a href="tel:+5571994169214">(71) 99416-9214</a> | <a href="tel:+5571982641092">(71) 98264-1092</a></p>
+  <p>📧 <a href="mailto:feitas.engconstrucao@gmail.com">feitas.engconstrucao@gmail.com</a></p>
+  <a class="btn" href="https://wa.me/5571994169214" target="_blank">Fale pelo WhatsApp</a>
+</section>
+
+<footer>
+  <p>&copy; 2025 Freitas Engenharia e Construção | Desenvolvido por Luã Freitas</p>
+</footer>
+
+</body>
+</html>
